@@ -1,0 +1,107 @@
+<script lang="ts">
+  let macbook: string = "/images/macbook.png";
+  let camera: string = "/images/camera.png";
+  let router: string = "/images/router.png";
+  import Beneficios from "../components/beneficios.svelte";
+  let lista_seguridad: Array<string> = [
+    "Sistemas de alarmas y monitoreo",
+    "Cámaras de seguridad y vigilancia",
+    "Control de acceso y seguridad biométrica",
+  ];
+  let lista_tecnologia: Array<string> = ['Mantenimiento de equipos, servidores e impresoras',
+'Redes, cableado estructurado y enlaces inalámbricos',
+'Servicios de cloud y telefonía IP',
+'Ciberseguridad y protección de datos'];
+  let lista_equipo: Array<string> = ['Laptops y computadoras de última generación: para gaming, oficina y hogar',
+'Celulares y tablets de alto rendimiento',
+'Amplia selección de accesorios tecnológicos'];
+</script>
+
+<div
+  class="z-20 px-12 bg-gradient-to-b/ from-black to-transparent text-white flex flex-col
+justify-center bg-macbook bg-bottom bg-no-repeat bg-cover h-[630px]"
+>
+  <div class="flex">
+    <button>
+      <svg
+        width="144"
+        height="144"
+        viewBox="0 0 144 144"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M84.0189 47.7444L54.221 71.5827L84.0189 95.421"
+          stroke="#FFFDFD"
+          stroke-width="7.92761"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <div class="grow px-12 relative top-10">
+      <p class="text-[76px] font-inter font-bold leading-normal">
+        Venta de Equipo <br /> Tecnológico
+      </p>
+      <a href="/"
+        ><p class="font-montserrat font-bold text-3xl py-4">Leer más</p></a
+      >
+    </div>
+    <button>
+      <svg
+        width="144"
+        height="144"
+        viewBox="0 0 144 144"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M59.6124 47.7444L89.4103 71.5827L59.6124 95.421"
+          stroke="#FFFDFD"
+          stroke-width="7.92761"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+<!-- <img class="w-full absolute" src={macbook} alt="computer" /> -->
+
+<div class="flex">
+  <div class="grow flex flex-col">
+    <div class="flex items-center justify-center">
+      <div class="flex flex-col items-center m-12 grow">
+        <div class="font-poppins text-5xl font-semibold text-center">Nuestros <span class="text-argold">servicios</span></div>
+        <div class="h-[5px] w-28 bg-argold mt-10"></div>
+      </div>
+      <div class="absolute right-8 space-y-4 w-14">
+      <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M381.953,-0.001c3.073,0 9.216,0 13.824,0.512c11.264,0 26.112,1.024 32.768,2.56c10.24,2.048 19.968,5.12 27.648,9.216c9.728,4.608 17.92,10.752 25.6,18.432c7.168,7.168 13.312,15.36 17.92,25.088c4.096,7.68 7.168,17.408 9.216,27.648c1.536,6.656 2.56,21.504 3.072,32.768l0,265.729c0,3.072 0,9.216 -0.512,13.824c0,11.264 -1.024,26.112 -2.56,32.768c-2.048,10.24 -5.12,19.968 -9.216,27.648c-4.608,9.728 -10.752,17.92 -18.432,25.6c-7.168,7.168 -15.36,13.312 -25.088,17.92c-7.68,4.096 -17.408,7.168 -27.648,9.216c-6.656,1.536 -21.504,2.56 -32.768,3.072l-265.728,0c-3.072,0 -9.216,0 -13.824,-0.512c-11.264,0 -26.112,-1.024 -32.768,-2.56c-10.24,-2.048 -19.968,-5.12 -27.648,-9.216c-9.728,-4.608 -17.92,-10.752 -25.6,-18.432c-7.168,-7.168 -13.312,-15.36 -17.92,-25.088c-4.096,-7.68 -7.168,-17.408 -9.216,-27.648c-1.536,-6.656 -2.56,-21.504 -3.072,-32.768l0,-265.729c0,-3.072 0,-9.216 0.512,-13.824c0,-11.264 1.024,-26.112 2.56,-32.768c2.048,-10.24 5.12,-19.968 9.216,-27.648c4.608,-9.728 10.752,-17.92 18.432,-25.6c7.168,-7.168 15.36,-13.312 25.088,-17.92c7.68,-4.096 17.408,-7.168 27.648,-9.216c6.656,-1.536 21.503,-2.56 32.768,-3.072l265.728,0Zm8.696,122.563c-34.457,-34.486 -80.281,-53.487 -129.103,-53.507c-100.595,0 -182.468,81.841 -182.508,182.437c-0.013,32.156 8.39,63.546 24.361,91.212l-25.892,94.545l96.75,-25.37c26.657,14.535 56.67,22.194 87.216,22.207l0.075,0c100.586,0 182.465,-81.852 182.506,-182.448c0.019,-48.751 -18.946,-94.59 -53.405,-129.076Zm-129.102,280.709l-0.061,0c-27.22,-0.011 -53.917,-7.32 -77.207,-21.137l-5.539,-3.287l-57.413,15.056l15.325,-55.959l-3.608,-5.736c-15.184,-24.145 -23.203,-52.051 -23.192,-80.704c0.033,-83.611 68.083,-151.635 151.756,-151.635c40.517,0.016 78.603,15.811 107.243,44.474c28.64,28.663 44.404,66.764 44.389,107.283c-0.035,83.617 -68.083,151.645 -151.693,151.645Zm83.207,-113.573c-4.56,-2.282 -26.98,-13.311 -31.161,-14.832c-4.18,-1.521 -7.219,-2.282 -10.259,2.282c-3.041,4.564 -11.78,14.832 -14.44,17.875c-2.66,3.042 -5.32,3.423 -9.88,1.14c-4.561,-2.281 -19.254,-7.095 -36.672,-22.627c-13.556,-12.087 -22.709,-27.017 -25.369,-31.581c-2.66,-4.564 -0.283,-7.031 2,-9.304c2.051,-2.041 4.56,-5.324 6.84,-7.986c2.28,-2.662 3.04,-4.564 4.56,-7.606c1.52,-3.042 0.76,-5.705 -0.38,-7.987c-1.14,-2.282 -10.26,-24.72 -14.06,-33.848c-3.701,-8.889 -7.461,-7.686 -10.26,-7.826c-2.657,-0.132 -5.7,-0.16 -8.74,-0.16c-3.041,0 -7.98,1.141 -12.161,5.704c-4.18,4.564 -15.96,15.594 -15.96,38.032c0,22.438 16.34,44.116 18.62,47.159c2.281,3.043 32.157,49.089 77.902,68.836c10.88,4.697 19.374,7.501 25.997,9.603c10.924,3.469 20.866,2.98 28.723,1.806c8.761,-1.309 26.98,-11.029 30.781,-21.677c3.799,-10.649 3.799,-19.777 2.659,-21.678c-1.139,-1.902 -4.179,-3.043 -8.74,-5.325Z" id="WhatsApp-Logo-Icon" style="fill-rule:nonzero;"/></svg>
+ <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M512,257.555c0,-141.385 -114.615,-256 -256,-256c-141.385,0 -256,114.615 -256,256c0,127.777 93.616,233.685 216,252.89l0,-178.89l-65,0l0,-74l65,0l0,-56.4c0,-64.16 38.219,-99.6 96.695,-99.6c28.009,0 57.305,5 57.305,5l0,63l-32.281,0c-31.801,0 -41.719,19.733 -41.719,39.978l0,48.022l71,0l-11.35,74l-59.65,0l0,178.89c122.385,-19.205 216,-125.113 216,-252.89Z" style="fill-rule:nonzero;"/></svg>
+      </div>
+
+    </div>
+    <div class="flex justify-center">
+      <Beneficios
+        list={lista_seguridad}
+        title_top="Seguridad"
+        title_bottom="Electrónica Integral"
+        image="seguridad"
+      />
+      <Beneficios
+        list={lista_tecnologia}
+        title_top="Soluciones en"
+        title_bottom="Tecnología Informática"
+        image="tecnologia"
+      />
+      <Beneficios
+        list={lista_equipo}
+        title_top="Venta de Equipo"
+        title_bottom="Informatico"
+        image="equipo"
+      />
+    </div>
+  </div>
+</div>

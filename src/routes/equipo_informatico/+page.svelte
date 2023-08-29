@@ -1,0 +1,1 @@
+<p>Equipo Informático</p>
