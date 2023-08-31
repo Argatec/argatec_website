@@ -8,9 +8,9 @@ export default {
         '9xl': '120rem',
       },
       backgroundImage: {
-        'macbook': "url('/images/hero_macbook.png')",
-        'redes': "url('/images/hero_redes.png')",
-        'seguridad': "url('/images/hero_seguridad.png')",
+        'macbook': "url('/images/hero/macbook.png')",
+        'redes': "url('/images/hero/redes.png')",
+        'seguridad': "url('/images/hero/seguridad.png')",
 
       },
       fontFamily:{
