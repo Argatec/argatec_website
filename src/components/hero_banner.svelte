@@ -61,7 +61,7 @@ justify-center bg-gray-500 bg-cover items-center h-[500px] ${imagen}`}
 
 <style>
   .hero {
-    box-shadow: inset 0px 3em 3em #000;
+    /* box-shadow: inset 0px 10px 10px #000; */
     background-image: url('/images/hero/macbook.png');
   }
 
@@ -71,6 +71,7 @@ justify-center bg-gray-500 bg-cover items-center h-[500px] ${imagen}`}
 
   .redes {
     background-image: url('/images/hero/redes.png');
+    background-position: bottom;
   }
 
   .seguridad {
