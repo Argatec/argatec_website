@@ -2,6 +2,7 @@
   import { browser } from "$app/environment";
   import LogosCarousel from "./logos_carousel.svelte";
   import ClientsCarousel from "./clients_carousel.svelte";
+  import { whatsapp_link } from "$lib/links";
 </script>
 
 <div class="text-2xl flex flex-col items-center pt-12">
@@ -29,9 +30,9 @@
   {/if}
 
   <p class="font-poppins font-semibold text-3xl max-w-2xl text-center mb-16">
-    Tempor hendrerit mattis cras euismod semper id mauris.
+    Confíe en nosotros para proteger lo que más importa: su hogar, su negocio y su tranquilidad.
   </p>
-  <button
+  <a href={$whatsapp_link}
     ><svg width="186" height="46" viewBox="0 0 186 46" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="186" height="46" rx="8" fill="#25CF43" />
       <path
@@ -39,7 +40,7 @@
         fill="#F5F5F5"
       />
     </svg>
-  </button>
+  </a>
 </div>
 
 
