@@ -32,7 +32,7 @@
   <p class="font-poppins font-semibold text-3xl max-w-2xl text-center mb-16">
     Confíe en nosotros para proteger lo que más importa: su hogar, su negocio y su tranquilidad.
   </p>
-  <a href={$whatsapp_link}
+  <a href={$whatsapp_link} target="_blank"
     ><svg width="186" height="46" viewBox="0 0 186 46" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="186" height="46" rx="8" fill="#25CF43" />
       <path
