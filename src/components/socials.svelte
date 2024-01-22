@@ -3,9 +3,9 @@
   import { facebook_link } from "$lib/links";
 </script>
 
-<div class="w-full items-end pr-4 sticky bottom-[400px] z-30 space-y-4">
-  <div class="w-full h-14 flex justify-end">
-    <a href={$whatsapp_link} target="_blank" class=" space-y-4 bg-white rounded-2xl p-1 opacity-80">
+<div class="w-full items-end pr-4 sticky bottom-[400px] z-30 space-y-4 flex justify-end">
+  <div class="flex justify-end flex-col bg-white p-1 opacity-80 rounded-2xl space-y-4">
+    <a href={$whatsapp_link} target="_blank" class="w-14">
       <svg
         enable-background="new 0 0 24 24"
         height="100%"
@@ -23,9 +23,7 @@
         ></svg
       >
     </a>
-  </div>
-  <div class="w-full h-14 flex justify-end">
-    <a href={$facebook_link} target="_blank" class=" space-y-4 bg-white rounded-2xl p-1 opacity-80">
+    <a href={$facebook_link} target="_blank" class="w-14">
       <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M512,257.555c0,-141.385 -114.615,-256 -256,-256c-141.385,0 -256,114.615 -256,256c0,127.777 93.616,233.685 216,252.89l0,-178.89l-65,0l0,-74l65,0l0,-56.4c0,-64.16 38.219,-99.6 96.695,-99.6c28.009,0 57.305,5 57.305,5l0,63l-32.281,0c-31.801,0 -41.719,19.733 -41.719,39.978l0,48.022l71,0l-11.35,74l-59.65,0l0,178.89c122.385,-19.205 216,-125.113 216,-252.89Z" style="fill-rule:nonzero;"/></svg>
     </a>
   </div>
