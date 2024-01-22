@@ -21,6 +21,7 @@ export default {
       },
       colors:{
         argold: '#B8A150',
+        argray: '#252525'
       }
     }
   },
