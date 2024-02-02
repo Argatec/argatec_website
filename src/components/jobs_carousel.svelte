@@ -5,13 +5,13 @@
 
   let trabajos: Array<Array<string>> = [
     [
-      "./images/trabajos/trabajo1.png"],
+      "./images/trabajos/trabajo1.webp"],
       [
-        "./images/trabajos/trabajo1.png"],
+        "./images/trabajos/trabajo1.webp"],
       [
-        "./images/trabajos/trabajo1.png"],
+        "./images/trabajos/trabajo1.webp"],
       [
-        "./images/trabajos/trabajo1.png"],
+        "./images/trabajos/trabajo1.webp"],
 
   ];
 
@@ -52,7 +52,9 @@
     {#if browser}
       <Carousel bind:this={carousel} arrows={false} dots={false} {handleNextClick} {handlePreviousClick}>
         {#each trabajos as testimonio}
+        {#if browser}
         <img src={testimonio[0]} alt="trabajo" class="rounded-2xl " />
+        {/if}
         {/each}
       </Carousel>
     {/if}
@@ -119,7 +121,6 @@
       {/if}
     {/each}
   </div>
-
 </div>
 
 <style>
