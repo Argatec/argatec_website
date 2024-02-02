@@ -9,7 +9,7 @@
       <a class="" href="/">Inicio</a>
       <a href="/seguridad">Seguridad</a>
       <a href="/soluciones_tecnologicas">Soluciones Tecnológicas</a>
-      <a href="/equipo_informatico">Equipo Informático</a>
+      <!-- <a href="/equipo_informatico">Equipo Informático</a> -->
     </div>
   </div>
 </nav>
