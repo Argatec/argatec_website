@@ -1,5 +1,5 @@
 <script lang="ts">
-
+//HOME PAGE
 
   import Hero from "../components/hero_multiple.svelte";
   import Contacto from "../components/contacto.svelte";
