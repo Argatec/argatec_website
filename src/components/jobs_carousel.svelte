@@ -48,13 +48,10 @@
   </button>
   
   <div class="max-w-5xl mt-6 mrounded-2xl trabajo rounded-2xl">
-  
     {#if browser}
       <Carousel bind:this={carousel} arrows={false} dots={false} {handleNextClick} {handlePreviousClick}>
-        {#each trabajos as testimonio}
-        {#if browser}
-        <img src={testimonio[0]} alt="trabajo" class="rounded-2xl " />
-        {/if}
+        {#each trabajos as trabajo}
+        <img src={trabajo[0]} alt="trabajo" class="rounded-2xl " />
         {/each}
       </Carousel>
     {/if}
