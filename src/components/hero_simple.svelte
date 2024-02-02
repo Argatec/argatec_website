@@ -3,9 +3,12 @@
 
   import Simple_Banner from "./simple_banner.svelte";
 
-  let banner: Array<string> = ["soluciones_tecnologicas", "Soluciones en Tecnología", "Informática", "TEXTO PENDIENTE PERO ES ALGO AHI LARGO QUE DESCRIBE UNAS WEAS MISTICAS DE LAS SOLUCIONES EN TECNOLOGIA"];
+  export let imagen: string; 
+  export let titulo_arriba: string;
+  export let titulo_abajo: string;
+  export let descripcion: string; 
 </script>
 
 {#if browser}
-  <Simple_Banner imagen={banner[0]} titulo_arriba={banner[1]} titulo_abajo={banner[2]} texto_inferior={banner[3]}/>
+  <Simple_Banner imagen={imagen} titulo_arriba={titulo_arriba} titulo_abajo={titulo_abajo} texto_inferior={descripcion}/>
 {/if}
