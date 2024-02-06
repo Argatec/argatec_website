@@ -10,3 +10,6 @@
     titulo_abajo = "Informática"
     descripcion = "TEXTO PENDIENTE PERO ES ALGO AHI LARGO QUE DESCRIBE UNAS WEAS MISTICAS DE LAS SOLUCIONES EN TECNOLOGIA"/>
     
+ <div class="flex my-12 justify-center align-center w-full py-12 bg-black border-2 border-red-600 rounded-xl">
+     <h2 class="text-white "> ESTE ES UN TITULO DE PRUEBA </h2>
+ </div>
