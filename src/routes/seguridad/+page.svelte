@@ -11,5 +11,4 @@
     descripcion = ""/>
     
  <div class="flex my-12 justify-center align-center w-full py-12 bg-black border-2 border-red-600 rounded-xl">
-     <h2 class="text-white "> ESTE ES UN TITULO DE PRUEBA </h2>
  </div>
