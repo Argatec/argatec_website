@@ -4,7 +4,7 @@
 </script>
 
 <div class="bg-black text-white flex flex-col items-center px-10 py-12">
-  <p class="font-poppins text-4xl w-2/5 text-center">¡lorem ipsum amelia astrid cmajs oasinoin!</p>
+  <p class="font-poppins text-4xl w-2/5 text-center">¡Su seguridad no es un juego!</p>
   <div class="text-sm my-12 font-poppins space-x-4 w-full flex justify-center">
     <a
       class="flex justify-center items-center py-3 w-44 bg-transparent text-argold border-2 border-argold rounded-md"
