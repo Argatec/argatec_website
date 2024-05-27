@@ -10,7 +10,6 @@
     "Mantenimiento de equipos, servidores e impresoras",
     "Redes, cableado estructurado y enlaces inalámbricos",
     "Servicios de cloud y telefonía IP",
-    "Ciberseguridad y protección de datos",
   ];
   let lista_equipo: Array<string> = [
     "Laptops y computadoras de última generación: para gaming, oficina y hogar",
