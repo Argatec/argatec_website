@@ -1,0 +1,48 @@
+{
+  "name": "argatec-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "latest",
+    "@radix-ui/react-checkbox": "latest",
+    "@radix-ui/react-context-menu": "latest",
+    "@radix-ui/react-dialog": "latest",
+    "@radix-ui/react-dropdown-menu": "latest",
+    "@radix-ui/react-menubar": "latest",
+    "@radix-ui/react-navigation-menu": "latest",
+    "@radix-ui/react-radio-group": "latest",
+    "@radix-ui/react-select": "latest",
+    "@radix-ui/react-slot": "latest",
+    "@radix-ui/react-toast": "latest",
+    "@types/animejs": "^3.1.7",
+    "animejs": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cmdk": "latest",
+    "embla-carousel-react": "latest",
+    "input-otp": "latest",
+    "lucide-react": "^0.454.0",
+    "next": "15.5.2",
+    "react": "19.1.1",
+    "react-day-picker": "latest",
+    "react-dom": "19.1.1",
+    "react-resizable-panels": "latest",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "tw-animate-css": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
+    "postcss": "^8.5",
+    "tailwindcss": "^4.1.9",
+    "typescript": "^5"
+  }
+}
